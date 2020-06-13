@@ -1,0 +1,192 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lato:400,300,700|Montserrat:200,300,400,500,600,700,800,900');
+/*----font awesome -------*/
+@import url('../fonts/font-awesome/css/font-awesome.min.css');
+/*--------- flat-icon ---------*/
+@import url('../fonts/icon/font/flaticon.css');
+
+/*______________________ Global stlye ___________________*/
+
+ @font-face {
+  font-family: 'font-awesome';
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.ttf');
+  src: url('../fonts/font-awesome/fonts/fontawesome-webfont.eot'), /* IE9 Compat Modes */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/font-awesome/fonts/fontawesome-webfont.svg') format('svg'); /* Legacy iOS */
+ }
+
+body {
+  font-weight: normal;
+  color:#8f8f8f;
+  font-size: 16px;
+  line-height: 28px;
+  position: relative;
+ }
+body .main-page-wrapper {
+  overflow-x:hidden;
+}
+
+h1,h2,h3,h4,h5,h6,p,ul { margin:0;padding: 0;}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Montserrat', sans-serif;
+  color:#282828;
+}
+h1 {font-size: 60px; font-weight: 900;}
+h2 {font-size: 45px; font-weight: 800;}
+h3 {font-size: 24px; font-weight: 700;}
+h4 {font-size: 22px; font-weight: 500;}
+h5 {font-size: 20px; font-weight: 600;}
+h6 {font-size: 18px; font-weight: 300;}
+ul {list-style-type: none;}
+a {text-decoration: none; display: inline-block;font-family: 'Montserrat', sans-serif;}
+a:hover,a:focus,a:visited {text-decoration: none; outline: none;}
+img {max-width: 100%; display: block;}
+button {border:none;outline: none;box-shadow: none;display: block; padding: 0;}
+input,textarea {outline: none; box-shadow: none;-webkit-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+/*------------------------------------ Transition --------------------------------*/
+.service-style-one .single-service div span,.service-style-one .single-service p,
+.service-style-one .single-service i,.service-style-one .single-service:before{
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out;
+}
+.tran4s,#searchWrapper {
+  -webkit-transition: all .4s ease-in-out;
+          transition: all .4s ease-in-out;
+ }
+.float-left {float:left;}
+.float-right {float:right;}
+.round-border{
+  border-radius: 50%;
+}
+.m-top0 {margin-top: 0 !important;}
+.m-bottom0 {margin-bottom: 0 !important;}
+
+/*--------------------------- Title ------------------------*/
+.theme-title {position: relative;}
+.theme-title h6 {
+  text-transform: uppercase;
+  margin-bottom: 18px;
+  color: #303030;
+}
+.theme-title h2 {line-height: 54px;}
+.theme-title p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #303030;
+  margin-top: 15px;
+}
+.theme-title a.theme-button {
+  width: 200px;
+  line-height: 46px;
+  font-weight: 500;
+  border: 2px solid #e4e9ef;
+  color: #282828;
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.theme-title a.theme-button:hover {color: #fff;}
+body .theme-button {
+  line-height: 50px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #fff;
+  font-size: 14px;
+}
+/*---------------------------------------- Color Css ---------------------------------*/
+.service-style-one .single-service div i{
+  color: #00c4fc;
+}
+.service-style-one .service-slider .center .single-service,.service-style-one .owl-theme .owl-nav [class*=owl-]:hover,.service-style-one .theme-button:hover{
+  background: #00c4fc;
+}
+.service-style-one .owl-theme .owl-nav [class*=owl-]:hover,.service-style-one .theme-button:hover,.case-study .text a:hover{
+  border-color: #00c4fc;
+}
+
+/*------------------------------- Service Style One -------------------------*/
+.service-style-one {
+    background: #202125;
+    padding: 100px 0px 260px;
+    position: absolute;
+    z-index: 99;
+    top: 0;
+    width: 100%;
+}
+div#particles-js {
+    position: absolute;
+    width: 100%;
+}
+.service-style-one .theme-title h2 {color: #fff;}
+.service-style-one .theme-title p {color: #b2b2b2;}
+.service-style-one .single-service {
+  background: #282a30;
+  position: relative;
+  padding: 25px 30px 28px 50px;
+  border-radius: 3px;
+}
+.service-style-one .single-service:before {
+  position: absolute;
+  content: '';
+  height: 30px;
+  width: 30px;
+  bottom: 0;
+  right: 0;
+  background: #282a30;
+  /* IE9 */
+  background: -webkit-linear-gradient(135deg, #202125 45%, #343845 50%, #343845 56%);
+  background: linear-gradient(315deg, #202125 45%, #343845 50%, #343845 56%);
+}
+.service-style-one .single-service div {
+  position: relative;
+  padding-left: 65px;
+}
+.service-style-one .single-service div span {
+  font-size: 15px;
+  color: #767787;
+}
+.service-style-one .single-service div h5 a {
+  color: #fff;
+  margin: 2px 0 22px 0;
+}
+.service-style-one .single-service div i {
+  position: absolute;
+  top:15px;
+  left:0;
+  font-size: 45px;
+}
+.service-style-one .single-service p {color: #767787;}
+.service-style-one .item {margin: 60px 15px 60px 15px;}
+.service-style-one .service-slider .center .single-service div span,
+.service-style-one .service-slider .center .single-service p,
+.service-style-one .service-slider .center .single-service i {color: #fff;}
+.service-style-one .center .single-service:before {
+  background: #282a30;
+  /* IE9 */
+  background: -webkit-linear-gradient(135deg, #202125 45%, #3ae6ff 50%, #3ae6ff 56%);
+  background: linear-gradient(315deg, #202125 45%, #3ae6ff 50%, #3ae6ff 56%);
+}
+.owl-theme .owl-nav {margin: 0;}
+.owl-theme .owl-nav [class*=owl-] {
+  font-family: 'font-awesome';
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 36px;
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  background: transparent;
+  font-size: 22px;
+  border: 2px solid #2f343f;
+  color: #2f343f;
+}
+.service-style-one .theme-button {
+  width: 200px;
+  line-height: 46px;
+  border: 2px solid #fff;
+  display: block;
+  margin: 0 auto;
+}

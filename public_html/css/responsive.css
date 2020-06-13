@@ -1,0 +1,223 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 15/02/2018. 
+    Theme Name   : bitap.
+    Description  : bitap || Responsive html5 Business template.
+    Version      : 1.
+    Author       : @heloshape.
+    Developed by : @heloshape.
+   
+*/
+
+
+
+@media (min-width: 992px) {
+    .container {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+}
+@media (max-width: 1199px) {
+    footer .footer-list,footer .footer-list.fix {padding-left: 15px;}
+    .service-inner-page .row {margin: 0 -15px;}
+    .service-inner-page .row [class*="col-"] {padding: 0 15px;}
+    .service-details .service-middle-text .short-advisor-box .float-left,
+    .service-details .service-middle-text .short-advisor-box .float-right {float:none;}
+    .service-details .service-middle-text .short-advisor-box {text-align: center;}
+    .service-details .service-middle-text .short-advisor-box a {margin-top: 30px;}
+    .contact-us-page .contact-form-wrapper {padding-left: 0;}
+}
+/*(max-width: 1199px)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .bottom-banner h2 {font-size: 28px;}
+    footer .bottom-footer ul li h3 {font-size: 24px;}
+    .case-study .text {padding-left: 40px;}
+    .why-choose-us .main-bg-content .text {padding-left: 45px;max-width: 485px;}
+    .latest-news .single-news .post {padding-left: 20px;padding-right: 20px;}
+    .contact-style-two .opacity .wrapper {width: 80%;}
+    .details-page-wrapper .details-page-sidebar .sidebar-slider {padding-left: 20px;}
+    .project-details .project-info .text {width: 45%;padding: 15px 10px 3px 30px;}
+    .project-details .project-info img {width: 55%;}
+    .project-details .project-info .text ul li {padding-bottom: 11px;}
+    .project-details .project-analysis ul li {padding-right: 30px;}
+    .service-inner-page .single-service .text h5 a {font-size: 20px;}
+}
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+    .theme-title br {display: none;}
+    .theme-menu-two .menu-wrapper {float: none;}
+    .theme-menu-two .menu-wrapper:before {
+        display: table;
+        content: " ";
+    }
+    .theme-menu-two.transparent-menu #mega-menu-holder li .sub-toggle {top:0;}
+    .theme-menu-two.transparent-menu #mega-menu-holder>ul> li> a {border-bottom: 1px solid rgba(255,255,255,0.08);}
+    .theme-menu-two.transparent-menu #mega-menu-holder li .sub-toggle {border-left: 1px solid rgba(255,255,255,0.08);}
+    .theme-menu-two.transparent-menu #mega-menu-holder>ul> li:first-child>a {border-top: none;}
+    .theme-menu-two .main-header {padding-top: 30px;}
+    #mega-menu-holder>ul> li> a,.theme-menu-two.transparent-menu #mega-menu-holder>ul> li> a,
+    .theme-menu-two .main-header.fixed #mega-menu-holder>ul> li> a {padding: 10px 20px;}
+    .theme-menu-two .main-header.fixed .logo,.theme-menu-two .main-header.fixed .right-content {display: none;}
+    .theme-menu-two .main-header.fixed {padding-top: 7px;}
+    .company-feature .single-content-holder {margin-bottom: 40px;}
+    .company-feature {margin-bottom: 100px;}
+    .company-offer .container>img {display: none;}
+    .company-offer .main-content,.about-bizco .text,.about-bizco .right-content,.case-study .text,.case-study img,
+    .our-team .single-team-member img,.contact-style-one .contact-address ul li,.contact-style-two .opacity .wrapper,
+    .about-bizco .img-box .row .single-img img,.details-page-wrapper .details-page-large-side,
+    .shop-page .main-wrapper .shop-large-side,.blog-large-sidebar,.blog-sidebar .sidebar-instagram ul li div img {width: 100%;}
+    .about-bizco .text {padding: 0 0 50px 0;}
+    .about-bizco .text.p-left {padding: 50px 0 0 0;}
+    .case-study .text {padding: 40px 0 0 0;}
+    .contact-style-one .google-map {margin-bottom: 50px;}
+    .contact-style-one .contact-address ul li {margin-bottom: 30px;}
+    .bottom-banner {text-align: center;}
+    .bottom-banner h2 {float:none;margin:0 0 15px 0;}
+    .bottom-banner a,.bottom-banner a.learn {float:none;margin: 15px 6px 0 6px;}
+    footer .row [class*="col-"] {margin-bottom: 50px;}
+    footer .bottom-footer p,footer .bottom-footer ul {float: none;text-align: center;}
+    footer .bottom-footer ul li {display: inline-block;float:none;padding: 0 15px 20px 15px;}
+    footer .bottom-footer {margin-top: 0;}
+    .what-we-do .content .single-block p {padding: 0;}
+    .why-choose-us .main-bg-content h2{font-size: 40px;}
+    .contact-style-two .opacity .wrapper .form-wrapper {padding-left: 25px;padding-right: 25px;}
+    .theme-title a.theme-button {position: static;margin-top: 20px;}
+    .details-page-wrapper .details-page-large-side,.shop-page .main-wrapper .shop-large-side {margin-bottom: 50px;}
+    .details-page-wrapper .details-page-sidebar,.shop-page .main-wrapper .shop-sidebar,.shop-page .all-product-wrapper .page-pagination {float: left;}
+    .faq-page .faq-form-wrapper {padding: 50px 0 0 0;}
+    .faq-page {padding-bottom: 120px;}
+    .blog-large-sidebar {padding: 0 0 50px 0;}
+    .contact-us-page .contact-form-wrapper {padding-top: 80px;}
+}
+/*(max-width: 991px)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .what-we-do .content .single-block {padding-left: 0;}
+    .what-we-do .content .single-block i {position: static;margin-bottom: 15px;display: block;line-height: initial;}
+    .what-we-do .content .single-block span {left:auto;right: 0;bottom: auto;top:0;}
+    .why-choose-us .main-bg-content .text {max-width: 375px;padding-left: 20px;}
+    .contact-style-two .opacity .wrapper .call-back {padding-bottom: 71px;}
+    .our-history .wrapper .text h2 {font-size: 43px;}
+    .mixitUp-menu ul li {padding: 0 10px;}
+    .details-page-wrapper .details-page-sidebar,.shop-page .main-wrapper .shop-sidebar,.blog-sidebar {width: 50%}
+    .project-details .project-info .text ul li {padding-bottom: 14px;}
+    .project-details .project-info .text {width: 45%;padding: 15px 10px 3px 30px;}
+    .project-details .project-info img {width: 55%;}
+    .project-details .project-analysis ul li {padding-right: 40px;}
+    .contact-us-top-content .single-address>i {font-size: 30px;}
+    .contact-us-top-content .single-address h3 {font-size: 20px;}
+    .contact-us-top-content .single-address p {font-size: 15px;}
+    #business-main-banner .tp-caption h1 {font-size: 55px;}
+}
+/*(min-width: 768px) and (max-width: 991px)*/
+
+@media (max-width: 767px) {
+    .scroll-top {right:5px; bottom: 5px;}
+    .theme-title h2 {font-size: 40px;line-height: 50px;}
+    .about-bizco .text .author .name,.about-bizco .text .author img,.theme-menu-two .top-header a,
+    .theme-menu-two .top-header ul {float:none;}
+    .about-bizco .text .author .name {padding: 20px 0;}
+    .case-study .single-case {border-right: none;border-bottom: 1px solid #eeeeee;padding-bottom: 25px;}
+    .case-study {margin-bottom: 85px;}
+    footer .bottom-footer ul li h3 {font-size: 22px;}
+    .theme-menu-two .top-header {text-align: center;}
+    .theme-menu-two .top-header a.float-right {margin: 15px 0;}
+    .theme-menu-two .top-header ul.float-left>li,.theme-menu-two .top-header ul.float-left>li:first-child {border: none;}
+    .what-we-do .content .single-block i {font-size: 38px;top:5px;}
+    .why-choose-us .main-bg-content {width: 100%;}
+    .why-choose-us .main-bg-content .text {max-width: none;padding-left: 15px;padding-right: 15px;}
+    .pricing-plan .float-left,.contact-style-two .opacity .wrapper .float-left,.project-details .project-info img,
+    .project-details .project-info .text,.details-page-wrapper .details-page-sidebar,.shop-page .main-wrapper .shop-sidebar,
+    .shop-details .single-product-details .image,.shop-details .single-product-details .info,
+    .service-details .our-approch .tab-pane img,.service-details .our-approch .tab-pane .clearfix div,.blog-sidebar {width: 100%;}
+    .contact-style-two .opacity .wrapper .call-back {padding: 100px 25px;}
+    .pricing-plan .theme-title h2 {font-size: 35px;}
+    .theme-title h2 {font-size: 38px;}
+    .contact-style-two .opacity {padding-top: 0;}
+    .our-history .wrapper .row [class*="col-"] {margin-bottom: 50px;}
+    .our-history {padding-bottom: 70px;}
+    .project-details .project-info img {border-radius: 3px;}
+    .project-details .project-info .text {padding: 35px 10px 35px 20px;border: 1px solid rgba(0,0,0,0.08);border-left: 1px solid rgba(0,0,0,0.08);border-top: none;}
+    .project-details .project-analysis .statstics {position: static;margin:30px auto 0 auto;display: block;}
+    .project-details .project-analysis ul li {padding: 30px 10px 0 10px;}
+    .project-details .project-analysis ul {text-align: center;}
+    .shop-details .single-product-details .image {margin-bottom: 50px;}
+    .shop-details .single-product-details .info {padding-left: 0;}
+    .service-details .our-approch .tab-pane .clearfix div {padding: 50px 0 0 0;}
+    #business-main-banner .tp-caption img {display: none;}
+    #business-main-banner .tp-caption h1 {font-size: 35px;}
+    #business-main-banner .tp-caption p {font-size: 15px;line-height: 27px;}
+    #business-main-banner-two .tp-caption h2 {font-size: 32px;}
+    #business-main-banner-two .tp-caption h2 br,#business-main-banner-two .tp-caption p br,
+    #search-button:before {display: none;}
+    #business-main-banner-two .tp-caption p,#business-main-banner-two .tp-caption h2 {padding-right: 10px;}
+}
+/*(max-width: 767px)*/
+
+@media (max-width: 650px) {
+    #success, #error {
+        width: 86%;
+        height: auto;
+        top: calc(50% - 50px);
+        left: 7%;
+        padding: 30px 10px;
+    }
+    .error-page a,.error-page span,.error-page input {display: block;margin: 10px 0;}
+    .error-page input {width: 100%;}
+    .blog-details-page .single-news .post .mark-text {padding-bottom: 70px;}
+    
+}
+
+@media (max-width: 600px) {
+  #searchWrapper #close-button {font-size: 20px;top:5px;right: 5px;font-size: 16px;}
+  #searchWrapper form button {width: 50px; font-size: 18px;}
+  #searchWrapper form {height: 45px;}
+  #searchWrapper form input {padding-right: 52px;font-size: 16px;}
+  .project-single-content .col-xs-6 {width: 100%;}
+  .faq-content-wrapper .panel .panel-body {padding-right: 0;}
+  .service-inner-page .row .col-xs-6,.blog-grid .latest-news .col-xs-6 {width: 100%;}
+  .blog-details-page .single-news .post .share-option ul {float:none; text-align: center;}
+}
+
+@media (max-width: 550px) {
+    .service-details .our-approch .nav-tabs > li {float:none;margin: 0;}
+}
+
+@media (max-width: 500px) {
+  .our-team .row [class*="col-"] {width: 100%;}
+  .project-details .project-solution .nav-tabs > li {float: none;border: 0;}
+  .error-page h2 {font-size: 120px;}
+  .error-page h3 {font-size: 35px;}
+  .service-details .our-approch .tab-pane,.blog-details-page .single-news .post {padding-left: 20px;padding-right: 20px;}
+  .blog-details-page .single-news .post .share-option {margin-left: -20px;margin-right: -20px;}
+  .blog-details-page .comment-section .single-comment.reply-comment {margin-left: 50px;}
+}
+
+@media (max-width: 480px) {
+   .latest-news-sldier.owl-theme .owl-nav {top:-45px;}
+   .our-history .wrapper .text h2 {font-size: 40px;}
+   .testimonial .opacity .item,.latest-news .single-news .post {padding-left: 20px;padding-right: 20px;}
+   .blog-details-page .single-news .post .mark-text p {font-size: 30px;line-height: 40px;}
+   .blog-details-page .comment-section .single-comment button {position: static;margin-top: 20px;}
+}
+
+@media (max-width: 420px) {
+    .theme-inner-banner a.float-right {width: 100px;font-size: 12px;}
+    .theme-inner-banner a.float-right i {font-size: 14px;}
+    .theme-inner-banner ul li {font-size: 15px;}
+}
+
+@media (max-width: 400px) {
+   .company-offer .main-content .single-offer {padding-left: 80px;}
+   .company-offer .main-content .single-offer i {width: 60px;height: 60px;line-height: 60px;font-size: 28px;}
+   .about-bizco .counter-number .row [class*="col-"] {width: 100%;}
+   .project-single-content .single-project .opacity h3 a {font-size: 20px;}
+   .shop-page .all-product-wrapper .col-xs-6 {width: 100%;}
+   .shop-details .review-tab .nav-tabs li{float:none;}
+   .shop-details .review-tab .nav-tabs li a {margin: 0;}
+   .shop-details .related-product>h5 {margin-bottom: 90px;}
+   .blog-sidebar .sidebar-recent-news .post h6 a {font-size: 15px;}
+}
